@@ -24,5 +24,5 @@ To set your node engine version:
 
 1. Add a `.env` file, and write the following in it: `PORT=3001` (you can change the port number)
 2. Run `npm i` (or `npm install`, same thing) to create your `node_modules`
-3. Run `npm start` - this runs `nodemon server.js` and assumes you have `nodemon` installed
+3. Run `npm start` - this runs `nodemon server.js`
 4. Navigate to `http://localhost:3001`, you should be seeing "Basic Express App - ROOT" in your browser 
