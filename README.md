@@ -13,8 +13,9 @@ To set your node engine version:
 3. Create your own repo on Github 
 4. Navigate to the cloned repo from step 2 (should be `cd ./basic-express-app`)
 5. Reset the `origin` remote to now reference your newly created repo from step 3 (`git remote set-url origin git://your.new.url.here`)
-6. Confirm this worked by running `git remote -v`. The output should match your new repo.
+6. Confirm this worked by running `git remote -v`. The output should match your new repo
 7. Further confirm by pushing to your new remote and seeing the changes in the repo on Github
+8. You can now delete the README.md in your repo, or make it your own by overwriting its content :) 
 
 ## Steps to get the app working
 
