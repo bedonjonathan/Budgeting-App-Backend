@@ -17,6 +17,6 @@
     "nodemon": "^2.0.7"
   },
   "engines": {
-    "node": "INSERT YOUR NODE VERSION"
+    "node": "v15.3.0"
   }
 }
