@@ -3,7 +3,6 @@ const transactionsArray = require("../models/transaction");
 
 
 transactions.get("/", (req, res)=>{
-    const {arrayIndex} = req.params;
     res.json(transactionsArray)
 })
 
@@ -35,10 +34,10 @@ transactions.delete("/:arrayIndex", (req, res) => {
   res.json(deleted[0]);
 });
 
-transactions.patch("/:arrayIndex", (req, res) => {
-  const { arrayIndex } = req.params;
-  const { body } = req;
-  transactionsArray;
-});
+// transactions.patch("/:arrayIndex", (req, res) => {
+//   const { arrayIndex } = req.params;
+//   const { body } = req;
+//   transactionsArray;
+// });
 
 module.exports = transactions;
