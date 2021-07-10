@@ -7,4 +7,4 @@ Welcome to the backend of my first full stack application.
     https://mega-frugal-app.herokuapp.com/
 
 -Netlify deployed web application
-    https://kind-heisenberg-2aef4a.netlify.app/transactions
+    https://very-frugal-app.netlify.app/
